@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Start */
+button.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+div.offcanvas-body {
+    text-align: center;
+}
+
+li.nav-item {
+    margin-left: 50px;
+}
+
+span.navbar-toggler-icon {
+    background-image: url(../images/list.svg);
+}
+
+/* Header End */
+/* Carousel Start */
+img.d-block.w-100.kerala-place {
+    height: 18em;
+}
+
+/* Carousel End */
+/* District Start */
+div.districtofkerala.row.container-fluid {
+    margin: 80px 0px 0px 0px;
+    text-decoration: none;
+}
+
+div.card.container.districts {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* District End */
+/* User login start */
+
+div.row.userlogin.container-fluid.m-0.p-0 {
+    background-image: url(https://weblizar.com/wp-content/uploads/2018/08/background.jpg);
+    background-size: cover;
+}
+
+form.col-md-4.userformtologin {
+    margin-top: 6em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+}
+
+/* User login end */
+
+/* Kerala Tours Start */
+
+div.container-fluid.kerala-tours.p-0{
+    margin-top: 30px;
+}
+
+div.container.tours-kerala{
+    text-align: justify;
+}
+
+/* Kerala Tours End */
+
+/* Gallery Start */
+
+div.row.container-fluid.galleryoftouristkerala{
+    margin: 50px 0px 0px 0px;
+}
+
+/* Gallery End */
+
+/* Why book  packages with us start*/
+
+div.container-fluid.why-book-packages-with-us.p-0{
+    margin-top: 60px;
+    text-align: justify;
+}
+
+/* Why book packages with us end */
