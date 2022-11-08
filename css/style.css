@@ -67,11 +67,11 @@ form.col-md-4.userformtologin {
 
 /* Kerala Tours Start */
 
-div.container-fluid.kerala-tours.p-0{
+div.container-fluid.kerala-tours.p-0 {
     margin-top: 30px;
 }
 
-div.container.tours-kerala{
+div.container.tours-kerala {
     text-align: justify;
 }
 
@@ -79,7 +79,7 @@ div.container.tours-kerala{
 
 /* Gallery Start */
 
-div.row.container-fluid.galleryoftouristkerala{
+div.row.container-fluid.galleryoftouristkerala {
     margin: 50px 0px 0px 0px;
 }
 
@@ -87,7 +87,7 @@ div.row.container-fluid.galleryoftouristkerala{
 
 /* Why book  packages with us start*/
 
-div.container-fluid.why-book-packages-with-us.p-0{
+div.container-fluid.why-book-packages-with-us.p-0 {
     margin-top: 60px;
     text-align: justify;
 }
@@ -96,16 +96,17 @@ div.container-fluid.why-book-packages-with-us.p-0{
 
 /* Sign up Start */
 
-div.row.usersignup.container-fluid.p-0{
+div.row.usersignup.container-fluid.p-0 {
     margin: 56px 0px 0px 0px;
     background-image: url(https://weblizar.com/wp-content/uploads/2018/08/background.jpg);
     background-size: cover;
 }
 
-form.user-form-to-signup.col-md-4{
+form.user-form-to-signup.col-md-4 {
     margin-top: 2.5em;
     margin-bottom: 2em;
     background-color: white;
-    padding: 40px 40px 40px 40px;   
+    padding: 40px 40px 40px 40px;
 }
+
 /* Sign up End */
