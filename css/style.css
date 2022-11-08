@@ -93,3 +93,19 @@ div.container-fluid.why-book-packages-with-us.p-0{
 }
 
 /* Why book packages with us end */
+
+/* Sign up Start */
+
+div.row.usersignup.container-fluid.p-0{
+    margin: 56px 0px 0px 0px;
+    background-image: url(https://weblizar.com/wp-content/uploads/2018/08/background.jpg);
+    background-size: cover;
+}
+
+form.user-form-to-signup.col-md-4{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 40px 40px 40px 40px;   
+}
+/* Sign up End */
