@@ -127,4 +127,8 @@ div.row.container-fluid.kollam-districts{
     text-align: justify;
 }
 
+img.card-img-top{
+    height: 10em;
+}
+
 /* Kollam End */
