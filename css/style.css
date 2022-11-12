@@ -127,8 +127,18 @@ div.row.container-fluid.kollam-districts{
     text-align: justify;
 }
 
-img.card-img-top{
-    height: 10em;
-}
-
 /* Kollam End */
+
+/* Pathanmthitta Start */
+div.row.container-fluid.pathanmthitta-districts{
+    padding-top: 90px;
+    text-align: justify;
+}
+/* Pathanmthitta End */
+
+/* Alappuzha Start */
+div.row.container-fluid.alappuzha-districts{
+    padding-top: 90px;
+    text-align: justify;
+}
+/* Alappuzha End */
