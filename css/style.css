@@ -119,3 +119,12 @@ div.row.container-fluid.thiruvananthapuram-districts{
 }
 
 /* Thiruvananthapuram End */
+
+/* Kollam Start */
+
+div.row.container-fluid.kollam-districts{
+    padding-top: 90px;
+    text-align: justify;
+}
+
+/* Kollam End */
