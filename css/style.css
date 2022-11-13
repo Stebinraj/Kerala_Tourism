@@ -142,3 +142,12 @@ div.row.container-fluid.alappuzha-districts{
     text-align: justify;
 }
 /* Alappuzha End */
+
+/* kottayam Start */
+
+div.row.container-fluid.kottayam-districts{
+    padding-top: 90px;
+    text-align: justify;
+}
+
+/* Kottayam End */
