@@ -33,6 +33,14 @@ span.navbar-toggler-icon {
 /* Header End */
 
 
+/* Carousel Start */
+img.d-block.w-100.kerala-place {
+    height: 18em;
+}
+
+/* Carousel End */
+
+
 /* District Start */
 div.districtofkerala.row.container-fluid {
     margin: 80px 0px 0px 0px;
