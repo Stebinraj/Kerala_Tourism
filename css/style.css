@@ -31,12 +31,8 @@ span.navbar-toggler-icon {
 }
 
 /* Header End */
-/* Carousel Start */
-img.d-block.w-100.kerala-place {
-    height: 18em;
-}
 
-/* Carousel End */
+
 /* District Start */
 div.districtofkerala.row.container-fluid {
     margin: 80px 0px 0px 0px;
@@ -83,6 +79,12 @@ div.row.container-fluid.galleryoftouristkerala {
     margin: 50px 0px 0px 0px;
 }
 
+img.card-img-top:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 /* Gallery End */
 
 /* Why book  packages with us start*/
@@ -113,7 +115,7 @@ form.user-form-to-signup.col-md-4 {
 
 /* Thiruvananthapuram Start */
 
-div.row.container-fluid.thiruvananthapuram-districts{
+div.row.container-fluid.thiruvananthapuram-districts {
     padding-top: 90px;
     text-align: justify;
 }
@@ -122,7 +124,7 @@ div.row.container-fluid.thiruvananthapuram-districts{
 
 /* Kollam Start */
 
-div.row.container-fluid.kollam-districts{
+div.row.container-fluid.kollam-districts {
     padding-top: 90px;
     text-align: justify;
 }
@@ -130,22 +132,24 @@ div.row.container-fluid.kollam-districts{
 /* Kollam End */
 
 /* Pathanmthitta Start */
-div.row.container-fluid.pathanmthitta-districts{
+div.row.container-fluid.pathanmthitta-districts {
     padding-top: 90px;
     text-align: justify;
 }
+
 /* Pathanmthitta End */
 
 /* Alappuzha Start */
-div.row.container-fluid.alappuzha-districts{
+div.row.container-fluid.alappuzha-districts {
     padding-top: 90px;
     text-align: justify;
 }
+
 /* Alappuzha End */
 
 /* kottayam Start */
 
-div.row.container-fluid.kottayam-districts{
+div.row.container-fluid.kottayam-districts {
     padding-top: 90px;
     text-align: justify;
 }
