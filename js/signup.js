@@ -3,7 +3,7 @@
 let email_signup = document.getElementById("inputEmail4");
 let email_error = document.getElementById("error_email");
 
-email_signup.addEventListener("blur", function () {
+email_signup.addEventListener("blur", () => {
     const emailpattern = /^\w+([\.\-]?\w+)*@\w+([\.\-]?\w+)*(\.\w{2,3})+$/;
 
     if (emailpattern.test(email_signup.value)) {
@@ -30,7 +30,7 @@ let passwd = document.getElementById("inputPassword4");
 let passwd_error = document.getElementById("passwd_error");
 let strength_signup = document.getElementById("strength_signup");
 
-passwd.addEventListener("input", function () {
+passwd.addEventListener("input", () => {
     const passwdpattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
     const passwdpattern2 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
@@ -68,7 +68,7 @@ passwd.addEventListener("input", function () {
 let num_signup = document.getElementById("inputPhonenumber");
 let signup_error = document.getElementById("number_error");
 
-num_signup.addEventListener("input", function () {
+num_signup.addEventListener("input", () => {
     const signup_pattern_1 = /^\d{10}$/;
     const signup_pattern_2 = /^[1-9]\d{2}[-][1-9]\d{2}[-]\d{4}$/;
     const signup_pattern_3 = /^[1-9]\d{2}\.\d{3}\.\d{4}$/;

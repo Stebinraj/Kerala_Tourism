@@ -3,7 +3,7 @@
 let email = document.getElementById("exampleInputEmail1");
 let email_err = document.getElementById("email_err");
 
-email.addEventListener("blur", function () {
+email.addEventListener("blur", () => {
     const mailpattern = /^\w+([\.\-]?\w+)*@\w+([\.\-]?\w+)*(\.\w{2,3})+$/;
 
     if (mailpattern.test(email.value)) {
@@ -30,7 +30,7 @@ let passid = document.getElementById("exampleInputPassword1");
 let pass_err = document.getElementById("pass_err");
 let strength = document.getElementById("strength");
 
-passid.addEventListener("input", function () {
+passid.addEventListener("input", () => {
     const passidpattern_1 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
     const passidpattern_2 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
@@ -68,7 +68,7 @@ passid.addEventListener("input", function () {
 let login_phone_num = document.getElementById("exampleInputphonenum");
 let login_phone_err = document.getElementById("phone_err");
 
-login_phone_num.addEventListener("blur", function () {
+login_phone_num.addEventListener("blur", () => {
     const login_phonenumpattern = /^\d{10}$/;
     const login_phonenumpattern2 = /^[1-9]\d{2}[-][1-9]\d{2}[-]\d{4}$/;
     const login_phonenumpattern3 = /^[1-9]\d{2}\.\d{3}\.\d{4}$/;
