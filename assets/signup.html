@@ -80,54 +80,50 @@
     <!-- User Sign up Start -->
     <div class="row usersignup container-fluid p-0">
         <div class="col-md-4"></div>
-        <form class="user-form-to-signup col-md-4">
+        <form class="user-form-to-signup col-md-4" id="signup_form">
             <div class="container logo-of-kerala-for-signup" style="width: 8rem;">
                 <img src="../images/kerala-logo.png" class="card-img-top" alt="kerala green logo image">
             </div>
+            <br>
             <div class="col-md-12">
-                <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 <small id="error_email"></small>
+                <br>
             </div>
             <div class="col-md-12">
-                <label for="inputPassword4" class="form-label">Password</label>
                 <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                 <small id="passwd_error"></small>
                 <br>
                 <small id="strength_signup"></small>
             </div>
             <div class="col-md-12">
-                <label for="inputPhonenumber" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="inputPhonenumber" placeholder="XXXXXXXXXX">
+                <input type="text" class="form-control" id="inputPhonenumber" placeholder="Phone Number">
                 <small id="number_error"></small>
+                <br>
             </div>
             <div class="col-md-12">
-                <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Address">
+                <small id="address_error"></small>
+                <br>
             </div>
             <div class="col-md-12">
-                <label for="inputCity" class="form-label">City</label>
                 <input type="text" class="form-control" id="inputCity" placeholder="City">
+                <small id="city_error"></small>
+                <br>
             </div>
             <div class="col-md-12">
-                <label for="inputState" class="form-label">State</label>
                 <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
+                    <option selected value="Default" disabled>Choose State</option>
                     <option>Kerala</option>
                     <option>Tamil Nadu</option>
                 </select>
+                <small id="state_error"></small>
+                <br>
             </div>
             <div class="col-md-12">
-                <label for="inputZip" class="form-label">Zip Code</label>
                 <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
-            </div>
-            <div class="col-md-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
+                <small id="zip_error"></small>
+                <br>
             </div>
             <div class="col-md-12">
                 <button type="submit" class="btn btn-primary w-100">Sign Up</button>

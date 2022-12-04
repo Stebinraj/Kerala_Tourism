@@ -47,13 +47,8 @@ div.card.container.districts {
 /* District End */
 /* User login start */
 
-div.row.userlogin.container-fluid.m-0.p-0 {
-    background-image: url(https://weblizar.com/wp-content/uploads/2018/08/background.jpg);
-    background-size: cover;
-}
-
 form.col-md-4.userformtologin {
-    margin-top: 7em;
+    margin-top: 5em;
     margin-bottom: 4em;
     background-color: white;
     padding: 65px 65px 65px 65px;
@@ -100,8 +95,6 @@ div.container-fluid.why-book-packages-with-us.p-0 {
 
 div.row.usersignup.container-fluid.p-0 {
     margin: 56px 0px 0px 0px;
-    background-image: url(https://weblizar.com/wp-content/uploads/2018/08/background.jpg);
-    background-size: cover;
 }
 
 form.user-form-to-signup.col-md-4 {
