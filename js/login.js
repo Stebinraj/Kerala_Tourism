@@ -81,9 +81,9 @@ const login_password_validation = () => {
 // User Login Form Submision start
 let login = document.getElementById("userloginform");
 login.onsubmit = () => {
-    if (login_email_validation() && login_phone_number_validation() && login_password_validation()) {
+    if (login_email_validation() & login_phone_number_validation() & login_password_validation()) {
         return login.action = "../index.html";
-    } else if (login_email_validation() || login_phone_number_validation() || login_password_validation()) {
+    } else if (login_email_validation() | login_phone_number_validation() | login_password_validation()) {
         return false;
     } else {
         return false;

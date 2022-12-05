@@ -165,9 +165,9 @@ const signup_zip_validation = () => {
 // User Signup Form Submssion Start
 let signup = document.getElementById("signup_form");
 signup.onsubmit = () => {
-    if (signup_email_validation() && signup_password_validation() && signup_phone_number_validation() && signup_address_validation() && signup_city_validation() && signup_state_validation() && signup_zip_validation()) {
+    if (signup_email_validation() & signup_password_validation() & signup_phone_number_validation() & signup_address_validation() & signup_city_validation() & signup_state_validation() & signup_zip_validation()) {
         return signup.action = "../index.html"
-    } else if (signup_email_validation() || signup_password_validation() || signup_phone_number_validation() || signup_address_validation() || signup_city_validation() || signup_state_validation() || signup_zip_validation()) {
+    } else if (signup_email_validation() | signup_password_validation() | signup_phone_number_validation() | signup_address_validation() | signup_city_validation() | signup_state_validation() | signup_zip_validation()) {
         return false;
     } else {
         return false;
